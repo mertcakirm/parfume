@@ -1,0 +1,176 @@
+#admin-parfumler-container{
+    margin-top: 70px;
+}
+
+#admin-parfumler-container>h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.admin-urun-card{
+    border: 1px solid #000;
+    height: auto;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.admin-urun-card-row{
+    height: 100%;
+    align-items: center;
+}
+.btn-flex{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: end;
+}
+.urun-ismi{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.delete-btn{
+    width:50px;
+    border: 0;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    background-color: red;
+}
+
+#parfum-ekle-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+    width: 150px;
+}
+
+#alertKutusu {
+    position: fixed; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .alertIcerik {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    width: 750px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  
+  .alertIcerik>button{
+    background-color: #0c2832;
+    color: #fff;
+    border: 0;
+    width: 50%;
+    height: 40px;
+    margin-top: 30px;
+    transition: .4s;
+    border-radius: 10px;
+  }
+  
+  .alertIcerik>button:hover {
+    border: 1px solid #0c2832;
+    color: #000;
+    background: transparent !important;
+    transition: .4s;
+  }
+  
+  
+  
+  .kapatButonu {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  
+  
+  }
+
+
+
+  #admin-alert-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .admin-alert-flex-isim>input{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-left: 1%;
+  }
+
+  .admin-alert-flex-isim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+
+#content{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-left: 1%;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.notalar-container{
+  width: 100%;
+}
+
+.notalar-flex-edit{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#admin-blog-baslik{
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 50%;
+}
+
+#admin-blog-content{
+  border: 1px solid #000;
+  border-radius: 10px;
+  width:70%;
+  resize: none;
+}
+
+.notalar-section-parent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}

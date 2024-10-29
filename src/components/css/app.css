@@ -1,0 +1,24 @@
+    /* Style the scrollbar for WebKit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        width: 15px; /* Width of the entire scrollbar */
+      }
+  
+      ::-webkit-scrollbar-track {
+        background: transparent; /* Color of the scrollbar track */
+      }
+  
+      ::-webkit-scrollbar-thumb {
+        background-color: #1f3b44; /* Color of the scrollbar thumb */
+        border-radius: 10px; /* Roundness of the scrollbar thumb */
+        border: 3px solid #f1f1f1; /* Adds padding around thumb */
+      }
+  
+      ::-webkit-scrollbar-thumb:hover {
+        background: #091F27; /* Color of the scrollbar thumb on hover */
+      }
+  
+      /* Scrollbar styles for Firefox */
+      body {
+        scrollbar-width: thin; /* Thin scrollbar width */
+        scrollbar-color: #091F27 #f1f1f1; /* Scrollbar thumb and track color */
+      }

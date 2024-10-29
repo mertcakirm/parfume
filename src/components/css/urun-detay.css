@@ -1,0 +1,212 @@
+#urun-detay-container{
+    margin-top: 50px;
+}
+
+.urun-content-sticky{
+    padding: 5%;
+    position: sticky;
+    top: 30px;
+}
+#urun-col-1>img{
+    height: 600px;
+    object-fit: contain;
+    transition: .4s;
+
+
+}
+
+#parfume-name{
+    font-size: 24px;
+    font-weight: 600;
+}
+#parfume-brand{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+#parfume-metin{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#parfume-notalar-flex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.parfume-nota-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nota-bolumu{
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.nota-img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.total-star-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.stars{
+    font-size: 25px;
+    color: yellow;
+    
+}
+
+.total-puan{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#yorumlar-row{
+    margin-top: 30px;
+    row-gap: 20px;
+}
+
+#yorumlar-form>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#yorum-txta{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#yorumlar-form>button{
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 10px;
+    border: 0 ;
+    background-color: #1f3b44;
+    color: #fff;
+    height: 50px;
+    transition: .4s;    
+}
+#yorumlar-form>button:hover{
+    border: 2px solid #000 ;
+    background: transparent;
+    color: #000;
+    transition: .4s;    
+}
+
+#yapilan-yorumlar-row{
+    row-gap: 30px;
+}
+
+.yorum-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border: 1px solid #000;
+    border-radius: 20px;
+    transition: .4s;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.yorum-card:hover{
+    border: 1px solid #000;
+    background-color: #1f3b44;
+    color: #fff;
+    height: auto;
+    transition: .4s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.yorum-yapan-isim{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.verilen-puan{
+    font-size: 24px;
+    font-weight: 600;
+}
+.yazilan-gorus{
+    text-align: center;
+}
+
+#pagi-nav{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.puanlama-yap{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2px;
+}
+
+#puan{
+    height: 30px;
+}
+
+
+.puan-ver-sag{font-size: 20px;}
+
+
+
+.flex-between{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fav-ekle{
+    border: 1px solid #1f3b44;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: gray;
+    transition: .4s;
+
+}
+
+#fav-ekle:hover{
+    background: #000;
+    color: red;
+    transition: .4s;
+}
+
+@media only screen and (max-width:991px) {
+    #urun-col-1>img{
+        height: 400px;
+        transition: .4s;
+    }
+
+    
+}

@@ -1,0 +1,102 @@
+#blog-detay-container{
+    margin-top: 50px;
+}
+
+#blog-brand{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+#blog-col-1>img{
+    position: sticky;
+    top: 50px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.blog-datetime{
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+}
+
+
+#one-cikan-blog{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+
+
+.blog-card-en{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+#blog-img-en{
+    transition: .4s;
+    object-fit: cover;
+    height: 100%;
+
+}
+.blog-card-en:hover .blog-card-content-en{
+    bottom: 1rem;
+    transition: .4s;
+}
+.blog-card-en:hover #blog-img-en{
+    opacity: 0.2;
+    transition: .4s;
+}
+
+.blog-card-content-en {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 90%;
+    text-align: center;
+    left: 5%;
+    transition: .4s;
+    bottom: -5rem;
+
+}
+
+
+
+.detayli-incele-btn-en{
+    width: 100%;
+    border: 1px solid #091F27;
+    background: #1f3b44;
+    height: 40px;
+    border-radius:  10px;
+    transition: .4s;
+
+}
+
+.detayli-incele-btn-a-en{
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+
+}
+.detayli-incele-btn-en:hover{
+    background: transparent;
+    transition: .4s;
+
+}
+
+.detayli-incele-btn-en:hover .detayli-incele-btn-a-en{
+    color: #000;
+    transition: .4s;
+}
+@media only screen and (max-width:991px) {
+    #blog-col-2{
+        margin-top: 50px;
+    }
+}

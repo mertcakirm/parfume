@@ -1,0 +1,140 @@
+
+/* blog */
+
+
+.blog-row{
+    row-gap: 30px;
+}
+
+.blog-card{
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+}
+.blog-img{
+    transition: .4s;
+    height: 100%;
+    object-fit: cover;
+
+}
+.blog-card:hover .blog-card-content{
+    bottom: 1rem;
+    transition: .4s;
+}
+.blog-card:hover .blog-img{
+    opacity: 0.2;
+    transition: .4s;
+}
+
+.blog-card-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    left: 5%;
+    transition: .4s;
+    bottom: -5rem;
+
+}
+
+.detayli-incele-btn{
+    width: 100%;
+    border: 1px solid #091F27;
+    background: #1f3b44;
+    height: 40px;
+    border-radius:  10px;
+    transition: .4s;
+
+}
+
+.detayli-incele-btn-a{
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+
+}
+.detayli-incele-btn:hover{
+    background: transparent;
+    transition: .4s;
+
+}
+
+.detayli-incele-btn:hover .detayli-incele-btn-a{
+    color: #000;
+    transition: .4s;
+}
+
+.blog-baslik{
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+#page-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.page-link:focus {
+    z-index: 3;
+    color: #000;
+    background-color: var(--bs-pagination-focus-bg);
+    outline: 0;
+    box-shadow: none;
+}
+.page-link {
+    z-index: 3;
+    color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+#search-submit-btn{
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #1f3b44;
+    transition: .4s;
+    color: #fff;
+}
+
+#search-submit-btn:hover{
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    border-radius: 10px;
+    transition: .4s;
+
+}
+
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: #000;
+    background-color: #b1b1b1;
+    border-color: var(--bs-border-color);
+}
+@media only screen and (max-width:991px) {
+
+    .blog-img{
+        opacity: 0.5;
+        transition: .4s;
+    }
+
+    .blog-card-content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+        left: 5%;
+        transition: .4s;
+        bottom: 1rem;
+    
+    }
+}
+
